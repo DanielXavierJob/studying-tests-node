@@ -1,0 +1,20 @@
+{
+  "name": "studyng-tests-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=* node --test index.test.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "tap-spec": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7"
+  }
+}
